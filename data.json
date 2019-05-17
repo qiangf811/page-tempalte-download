@@ -1,0 +1,49 @@
+{
+  "name": "账号中心",
+  "fileName": "yep",
+  "model": "系统管理",
+  "searchs": [
+    {
+      "fieldLabel": "姓名",
+      "fieldValue": "name",
+      "textInput": true
+    }, {
+      "fieldLabel": "告警时间",
+      "fieldValue": "time",
+      "dateInput": true
+    }, {
+      "fieldLabel": "性别",
+      "fieldValue": "sex",
+      "seletInput": true
+    }
+  ],
+  "tableOperation": [
+    {
+      "add": true
+    }, {
+      "delete": true
+    }
+  ],
+  "columnOperation": [
+    {
+    "edit": true
+    }, {
+      "delete": true
+    }
+  ],
+  "tableColumns": [
+    {
+      "fieldLabel": "性别",
+      "fieldValue": "sex",
+      "normalText": true
+    }, {
+      "fieldLabel": "性2别",
+      "fieldValue": "se2x",
+      "normalText": true
+    }, {
+      "fieldLabel": "出生日期",
+      "fieldValue": "birthday",
+      "dateType": true
+    }
+  ]
+}
